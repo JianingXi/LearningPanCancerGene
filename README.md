@@ -54,7 +54,7 @@ The files "./network/edge_list.txt" and "./network/index_genes.txt" contain the 
 * When the user-defined dataset and parameters are set, you can apply LearningPanCancerGene by running the Matlab script file "./demo.m". The results will then be automatically saved in file "./Output/Results.mat" after the program is finished. 
 
 ### Step 4. Variables in Output file 
-* In file "./Output/Results.mat", the variable `Candidates_list` is driver gene candidates selected from the top 200 genes ranked by representation `V`. The matrix `V` is the representation matrix of the investigated genes. The variables `S` is the output similarity matrix of cancer types.
+* In file "./Output/Results.mat", the variable `Candidates_list` contains driver gene candidates selected from the top 200 genes ranked by representation `V`. The matrix `V` is the representation matrix of the investigated genes. The variables `S` is the output similarity matrix of cancer types.
 
 # References
 [1] Park, Sunho and Kim, Seung-Jun and Yu, Donghyeon and Pena-Llopis, Samuel and Gao, Jianjiong and Park, Jin Suk and Chen, Beibei and Norris, Jessie and Wang, Xinlei and Chen, Min and others, An integrative somatic mutation analysis to identify pathways linked with survival outcomes across 19 cancer types, Bioinformatics 32 (11) (2015) 1643-1651.
