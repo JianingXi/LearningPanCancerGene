@@ -15,7 +15,7 @@ Developer: Jianing Xi <xjn@mail.ustc.edu.cn> from Health Informatics Lab, School
 ### Step 1. Input data
 
 * Somatic mutations of patients across multiple cancer types
-The file "./MutationData/mutation_matrices.mat" contains the TCGA somatic mutation data matrix and the bipartite matrix of relationships between patients and cancer types, which is downloaded from a [previous study](https://academic.oup.com/bioinformatics/article/32/11/1643/1742725/An-integrative-somatic-mutation-analysis-to) [1]. If you want to use a user-defined dataset, you can edit the structure variables `m_cdata` in file "./MutationData/mutation_matrices.mat" (which is also the input data file for NTriPath [1]):
+The file "./MutationData/mutation_matrices.mat" contains the TCGA somatic mutation data matrix and the bipartite matrix of relationships between patients and cancer types, which is downloaded from a [previous study](https://academic.oup.com/bioinformatics/article/32/11/1643/1742725/An-integrative-somatic-mutation-analysis-to) [1]. If you want to use a user-defined dataset, you can edit the structure variables `m_cdata` in file "./MutationData/mutation_matrices.mat" (which is also the input data file for [NTriPath](https://academic.oup.com/bioinformatics/article/32/11/1643/1742725/An-integrative-somatic-mutation-analysis-to) [1]):
 
   * `m_cdata.num_rows` <- the number of patients in user-defined dataset.}
   * `m_cdata.num_cols` <- the number of genes in the user-defined dataset.
