@@ -4,6 +4,9 @@ A novel unsupervised learning model for detecting driver genes from pan-cancer d
 
 Developer: Jianing Xi <xjn@mail.ustc.edu.cn> from Health Informatics Lab, School of Information Science and Technology, University of Science and Technology of China
 
+# Citation
+[Xi, J., Li, A. and Wang, M., 2018. A novel unsupervised learning model for detecting driver genes from pan-cancer data through matrix tri-factorization framework with pairwise similarities constraints. Neurocomputing, 296, pp.64-73.](https://www.sciencedirect.com/science/article/pii/S0925231218303187)
+
 ## Instructions to LearningPanCancerGene (version 1.0.0)
 
 # Requirement
