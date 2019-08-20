@@ -4,16 +4,16 @@ A novel unsupervised learning model for detecting driver genes from pan-cancer d
 
 Developer: Jianing Xi <xjn@mail.ustc.edu.cn> from Health Informatics Lab, School of Information Science and Technology, University of Science and Technology of China
 
-# Citation
+## Citation
 [Xi, J., Li, A. and Wang, M., 2018. A novel unsupervised learning model for detecting driver genes from pan-cancer data through matrix tri-factorization framework with pairwise similarities constraints. Neurocomputing, 296, pp.64-73.](https://www.sciencedirect.com/science/article/pii/S0925231218303187)
 
-## Instructions to LearningPanCancerGene (version 1.0.0)
+# Instructions to LearningPanCancerGene (version 1.0.0)
 
-# Requirement
+## Requirement
 * 4GB memory
 * MATLAB R2015a or later
 
-# Step-by-Step Tutorial
+## Step-by-Step Tutorial
 
 ### Step 1. Input data
 
@@ -59,7 +59,7 @@ The files "./network/edge_list.txt" and "./network/index_genes.txt" contain the 
 ### Step 4. Variables in Output file 
 * In file "./Output/Results.mat", the variable `Candidates_list` contains driver gene candidates selected from the top 200 genes ranked by representation `V`. The matrix `V` is the representation matrix of the investigated genes. The variables `S` is the output similarity matrix of cancer types.
 
-# References
+## References
 [1] Park, Sunho and Kim, Seung-Jun and Yu, Donghyeon and Pena-Llopis, Samuel and Gao, Jianjiong and Park, Jin Suk and Chen, Beibei and Norris, Jessie and Wang, Xinlei and Chen, Min and others, An integrative somatic mutation analysis to identify pathways linked with survival outcomes across 19 cancer types, Bioinformatics 32 (11) (2015) 1643-1651.
 
 [2] L. M. Schriml, C. Arze, S. Nadendla, Y.-W. W. Chang, M. Mazaitis, V. Felix, G. Feng, W. A. Kibbe, Disease Ontology: a backbone for disease semantic integration, Nucleic acids research 40 (D1) (2011) D940-D946.
